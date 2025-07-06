@@ -1,4 +1,3 @@
-import Navbar from "./components/navbar"
 import Experiences from "./components/Experiences"
 import Hero from "./components/Hero"
 import About from "./components/about"
