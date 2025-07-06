@@ -13,7 +13,7 @@ const Contact = () => {
                     <input required type="text" name="name" placeholder="Name" className="bg-black rounded-2xl p-4 outline-none border border-[#292929]" />
                     <input required type="email" name="email" placeholder="Email" className="bg-black rounded-2xl p-4 outline-none border border-[#292929]"/>
                     <textarea required name="message" rows="5" placeholder="💬 Type your message here..." className=" outline-none bg-black rounded-2xl p-4 border border-[#292929]" />
-                    <button type="submit" className="cursor-pointer text-xs md:text-base bg-black rounded-2xl px-4 py-3 w-fit opacity-80 text-left font-semibold border border-[#292929]">Submit</button>
+                    <button type="submit" className="cursor-pointer text-xs md:text-base bg-black rounded-2xl px-4 py-3 w-fit opacity-80 text-left font-semibold border border-[#3b3b3b] hover:brightness-150">Submit</button>
                 </form>
             </div>
         </div>
