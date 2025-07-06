@@ -5,7 +5,7 @@ export const experienceData = [
         duration: "November 2024 - Present",
         description: "",
         location: "Markham, ON",
-        logo: "/src/assets/Volkswagen.png",
+        logo: "Volkswagen.png",
     },
     {
         company: "Elections Canada",
@@ -13,7 +13,7 @@ export const experienceData = [
         duration: "April 2025 - May 2025",
         description: "",
         location: "Aurora, ON",
-        logo: "/src/assets/ElectionsCanada.jpg",
+        logo: "ElectionsCanada.jpg",
     },
         {
         company: "Filion Wakely Thorup Angeletti LLP",
@@ -21,7 +21,7 @@ export const experienceData = [
         duration: "January 2024 - May 2024",
         description: "",
         location: "Toronto, ON",
-        logo: "/src/assets/FilionWakely.png",
+        logo: "FilionWakely.png",
     },
     {
         company: "Thornhill Soccer Club",
@@ -29,7 +29,7 @@ export const experienceData = [
         duration: "June 2023 - August 2023",
         description: "",
         location: "Markham, ON",
-        logo: "/src/assets/ThornhillSoccerClub.jpg",
+        logo: "ThornhillSoccerClub.jpg",
     },
 ]
 
