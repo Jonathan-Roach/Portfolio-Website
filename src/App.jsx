@@ -14,7 +14,6 @@ function App() {
       <div className="bg-[#121212]">
       <About />
       <Experiences/>
-
       <Contact />
       <Footer />
       </div>
