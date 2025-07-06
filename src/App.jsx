@@ -1,7 +1,6 @@
 import Experiences from "./components/Experiences"
 import Hero from "./components/Hero"
-import About from "./components/about"
-import Projects from "./components/Projects"
+import About from "./components/About"
 import Contact from "./components/Contact"
 import Footer from "./components/Footer"
 
