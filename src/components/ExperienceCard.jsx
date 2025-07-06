@@ -7,8 +7,8 @@ function ExperienceCard(props) {
                         <div className='flex items-center px-2 md:px-6'>
                             <img className='w-12 md:w-16 bg-white rounded-full ring-3 ring-offset-2 ring-white mr-3 block' src={props.logo} alt={`${props.company} logo`} />
                             <div className='text-left ml-2'>
-                                <h1 className='text-base md:text-xl lg:text-xl leading-5 ease-in-out duration-1000 font-semibold text-white'>{props.company}</h1>
-                                <h2 className='text-xs md:text-sm lg:text-base text-[#d3aef6] font-semibold text-wrap   '>{props.title}</h2>
+                                <h1 className='text-base text-pretty md:text-xl lg:text-xl leading-5 ease-in-out duration-1000 font-semibold text-white'>{props.company}</h1>
+                                <h2 className='text-xs md:text-sm lg:text-base text-[#d3aef6] font-semibold'>{props.title}</h2>
                                 <p className="lg:hidden text-gray-300 md:text-sm text-xs font-semibold">{props.duration}</p>
                                 <p className="text-gray-300 md:text-sm text-xs font-semibold">{props.description}</p>
                             </div>
@@ -16,9 +16,9 @@ function ExperienceCard(props) {
                         </div>
                     </div>
 
-                    <div className="text-right text-nowrap flex flex-col justify-center">
-                        <h1 className='hidden lg:block text-xs xl:text-sm leading-3 ease-in-out duration-1000 font-semibold text-gray-300'>{props.duration}</h1>
-                        <h2 className='hidden lg:block text-xs xl:text-sm mt-1 text-gray-300 ease-in-out duration-1000 font-semibold'>{props.location}</h2>
+                    <div className="hidden lg:block text-right text-nowrap flex flex-col justify-center">
+                        <h1 className='text-xs xl:text-sm leading-3 ease-in-out duration-1000 font-semibold text-gray-300'>{props.duration}</h1>
+                        <h2 className='text-xs xl:text-sm mt-1 text-gray-300 ease-in-out duration-1000 font-semibold'>{props.location}</h2>
                     </div>
                 </div>
             </div>
