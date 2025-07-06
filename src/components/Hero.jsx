@@ -1,7 +1,7 @@
 import { personalData } from "../constants/links"
 import { experienceData } from "../constants/experience"
 import { HiArrowCircleDown  } from "react-icons/hi";
-import Navbar from "./navbar";
+import Navbar from "./Navbar";
 
 function Hero() {
     return(
