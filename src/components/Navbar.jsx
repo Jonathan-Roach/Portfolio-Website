@@ -15,10 +15,10 @@ function Navbar() {
 
       {/* Right side Nav*/}
       <div className="hidden lg:flex text-white text-base font-medium flex-row items-center gap-10">
-          <a href="#about">About</a>
-          <a href="#experience">Experience</a>
-          <a>Projects</a>
-          <a href="#contact">Contact Me</a>
+          <a href="#about" className='hover:text-[#927ace]'>About</a>
+          <a href="#experience" className='hover:text-[#927ace]'>Experience</a>
+          <a className='hover:text-[#927ace]'>Projects</a>
+          <a href="#contact" className='hover:text-[#927ace]'>Contact Me</a>
       </div>
         </div>
       </div>
