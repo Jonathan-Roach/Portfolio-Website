@@ -25,7 +25,7 @@ const Footer = () => {
 
             {/* Pages */}
             <div className="flex flex-col">
-                <h2 className='text-white font-semibold pb-3 text-base md:text-lg'>Landing</h2>
+                <h2 className='text-white font-semibold pb-3 text-base md:text-lg'>Navigation</h2>
                 <div className='font-medium grid grid-cols-3 md:grid-cols-2 gap-2 md:gap-4 text-sm md:text-base'>
                 <a href="#home" className='text-gray-300 hover:text-white'>Home</a>
                 <a href="#about" className='text-gray-300 hover:text-white'>About</a>
