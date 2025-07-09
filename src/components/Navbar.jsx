@@ -6,7 +6,7 @@ function Navbar() {
   return (
     <nav className="fixed bg-gradient-to-b from-[#121212] via-[#121212] to-transparent w-full top-0 left-0 pt-4 pb-15 z-10">
       <div className='flex justify-center w-full'>
-        <div className='w-11/12 flex flex-row justify-between'>
+        <div className='w-11/12 flex flex-row justify-between items-center'>
 
         {/* Logo*/}
         <a href="#home" className='group flex flex-row items-center gap-3'>
