@@ -1,4 +1,5 @@
 import React from 'react'
+import HamburgerMenu from './HamburgerMenu'
 
 function Navbar() {
 
@@ -20,6 +21,9 @@ function Navbar() {
           <a className='hover:text-[#927ace]'>Projects</a>
           <a href="#contact" className='hover:text-[#927ace]'>Contact Me</a>
       </div>
+
+      {/* Hamburger Menu */}
+      <HamburgerMenu/>
         </div>
       </div>
       
