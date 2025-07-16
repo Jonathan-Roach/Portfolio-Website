@@ -9,7 +9,7 @@ function ExperienceCard(props) {
                             <div className='text-left ml-2 w-full'>
                                 <h1 className='text-base leading-tight text-balance md:text-xl lg:text-xl font-semibold text-white'>{props.company}</h1>
                                 <h2 className='text-xs md:text-sm lg:text-base text-[#d3aef6] font-semibold'>{props.title}</h2>
-                                <p className="lg:hidden text-gray-300 md:text-sm text-xs font-semibold">{props.duration}</p>
+                                <p className="lg:hidden text-gray-300 md:text-sm text-[0.7rem] font-semibold">{props.duration}</p>
                                 <p className="text-gray-300 md:text-sm text-xs font-semibold">{props.description}</p>
                             </div>
                             

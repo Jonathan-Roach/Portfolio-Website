@@ -2,7 +2,7 @@ export const experienceData = [
     {
         company: "Volkswagen Unionville",
         title: "Fixed Operations Intern",
-        duration: "November 2024 - Present",
+        duration: "November 2024 - August 2025",
         description: "",
         location: "Markham, ON",
         logo: "Volkswagen.png",
