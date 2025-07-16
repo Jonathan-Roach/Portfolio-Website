@@ -10,16 +10,17 @@ function Navbar() {
 
         {/* Logo*/}
         <a href="#home" className='group flex flex-row items-center gap-2'>
-          <img src="icon.png" className='w-6 h-6 md:w-8 md:h-8'></img>
-        <h1 className='group-hover:text-[#927ace] text-white text-lg md:text-2xl font-bold'>Jonathan Roach</h1>
+          <img src="icon.png" className='w-6 h-6 md:w-7 md:h-7'></img>
+        <h1 className='group-hover:text-white text-gray-200 text-lg md:text-xl font-bold'>Jonathan Roach</h1>
         </a>
 
       {/* Right side Nav*/}
-      <div className="hidden lg:flex text-white text-base font-medium flex-row items-center gap-10">
-          <a href="#about" className='hover:text-[#927ace]'>About</a>
-          <a href="#experience" className='hover:text-[#927ace]'>Experience</a>
-          <a className='hover:text-[#927ace]'>Projects</a>
-          <a href="#contact" className='hover:text-[#927ace]'>Contact Me</a>
+      <div className="hidden lg:flex text-gray-200 text-base font-medium flex-row items-center gap-10">
+          <a href="#home" className='hover:text-white'>Home</a>
+          <a href="#about" className='hover:text-white'>About</a>
+          <a href="#experience" className='hover:text-white'>Experience</a>
+          <a className='hover:text-white'>Projects</a>
+          <a href="#contact" className='hover:text-white'>Contact</a>
       </div>
 
       {/* Hamburger Menu */}
