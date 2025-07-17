@@ -29,12 +29,12 @@ return (
               
                   {/* Nav*/}
                   <div className="flex justify-center">
-                    <div className="w-12/14 flex flex-col justify-between md:text-4xl text-white text-2xl font-[645] gap-5 mt-6">
-                        <a className="border-t-2 border-[#292929]" onClick={toggleMenu} href="#home">Home</a>
-                        <a className="border-t-2 border-[#292929]" onClick={toggleMenu} href="#about">About</a>
-                        <a className="border-t-2 border-[#292929]" onClick={toggleMenu} href="#experience">Experience</a>
-                        <a className="border-t-2 border-[#292929]" onClick={toggleMenu}>Projects</a>
-                        <a className="border-t-2 border-[#292929]" onClick={toggleMenu} href="#contact" >Contact Me</a>
+                    <div className="w-12/14 flex flex-col justify-between md:text-4xl text-white text-2xl font-[645] mt-6">
+                        <a className="border-t-2 py-3 border-[#292929]" onClick={toggleMenu} href="#home">Home</a>
+                        <a className="border-t-2 py-3  border-[#292929]" onClick={toggleMenu} href="#about">About</a>
+                        <a className="border-t-2 py-3  border-[#292929]" onClick={toggleMenu} href="#experience">Experience</a>
+                        <a className="border-t-2 py-3  border-[#292929]" onClick={toggleMenu}>Projects</a>
+                        <a className="border-t-2 py-3  border-[#292929]" onClick={toggleMenu} href="#contact" >Contact Me</a>
                         
                     </div>
                   </div>
