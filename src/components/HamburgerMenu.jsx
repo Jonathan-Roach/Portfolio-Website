@@ -13,7 +13,7 @@ return (
     <div className="lg:hidden text-white">
         <Hamburger className="" size={18} toggled={open} toggle={setOpen}/>
 
-        {open && <div className="fixed left-0 top-0 w-full h-full bg-[#121212]/70 backdrop-blur-sm pt-4 ">
+        {open && <div className="fixed left-0 top-0 w-full h-full bg-[#121212]/75 backdrop-blur-sm pt-4 ">
           <div className='flex justify-center w-full'>
                  <div className='w-11/12 flex flex-row justify-between'>
                 {/* Logo*/}
@@ -28,14 +28,16 @@ return (
                </div>
               
                   {/* Nav*/}
-                    <div className="flex flex-col justify-between md:text-4xl text-white text-3xl font-[645] gap-5 ml-5 mt-6">
-                        <a onClick={toggleMenu} href="#home">Home</a>
-                        <a onClick={toggleMenu} href="#about">About</a>
-                        <a onClick={toggleMenu} href="#experience">Experience</a>
-                        <a onClick={toggleMenu}>Projects</a>
-                        <a onClick={toggleMenu} href="#contact" >Contact Me</a>
+                  <div className="flex justify-center">
+                    <div className="w-12/14 flex flex-col justify-between md:text-4xl text-white text-2xl font-[645] gap-5 mt-6">
+                        <a className="border-t-2 border-[#292929]" onClick={toggleMenu} href="#home">Home</a>
+                        <a className="border-t-2 border-[#292929]" onClick={toggleMenu} href="#about">About</a>
+                        <a className="border-t-2 border-[#292929]" onClick={toggleMenu} href="#experience">Experience</a>
+                        <a className="border-t-2 border-[#292929]" onClick={toggleMenu}>Projects</a>
+                        <a className="border-t-2 border-[#292929]" onClick={toggleMenu} href="#contact" >Contact Me</a>
                         
                     </div>
+                  </div>
                 
         </div>}
     </div>
