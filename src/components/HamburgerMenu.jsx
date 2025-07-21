@@ -19,7 +19,7 @@ return (
                 {/* Logo*/}
                 <a onClick={toggleMenu} href="#home" className='group flex flex-row items-center gap-2'>
                   <img src="icon.png" className='w-6 h-6 md:w-8 md:h-8'></img>
-                <h1 className='group-hover:text-[#927ace] text-white text-lg md:text-2xl font-bold'>Jonathan Roach</h1>
+                <h1 className='text-white text-lg md:text-2xl font-bold'>Jonathan Roach</h1>
                 </a>
 
                {/* Hamburger Menu */}
