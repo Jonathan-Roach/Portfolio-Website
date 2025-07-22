@@ -11,16 +11,16 @@ function Navbar() {
         {/* Logo*/}
         <a href="#home" className='group flex flex-row items-center gap-2'>
           <img src="icon.png" className='w-6 h-6 md:w-7 md:h-7'></img>
-        <h1 className='group-hover:text-white text-white md:text-gray-300 text-lg md:text-xl font-bold'>Jonathan Roach</h1>
+        <h1 className=' text-white text-lg md:text-xl font-bold'>Jonathan Roach</h1>
         </a>
 
       {/* Right side Nav*/}
-      <div className="hidden lg:flex text-gray-300 text-base font-medium flex-row items-center gap-7">
-          <a href="#home" className='hover:text-white'>Home</a>
-          <a href="#about" className='hover:text-white'>About</a>
-          <a href="#experience" className='hover:text-white'>Experience</a>
-          <a className='hover:text-white'>Projects</a>
-          <a href="#contact" className='hover:text-white'>Contact</a>
+      <div className="hidden lg:flex text-white text-base font-medium flex-row items-center gap-7">
+          <a href="#home" className='navlink '>Home</a>
+          <a href="#about" className='navlink '>About</a>
+          <a href="#experience" className='navlink '>Experience</a>
+          <a className='navlink'>Projects</a>
+          <a href="#contact" className='navlink'>Contact</a>
       </div>
 
       {/* Hamburger Menu */}
