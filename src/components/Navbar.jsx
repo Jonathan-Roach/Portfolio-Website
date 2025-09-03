@@ -15,7 +15,7 @@ function Navbar() {
         </a>
 
       {/* Right side Nav*/}
-      <div className="hidden lg:flex text-white text-base font-medium flex-row items-center gap-7">
+      <div className="hidden lg:flex text-white font-medium flex-row items-center gap-8">
           <a href="#home" className='navlink '>Home</a>
           <a href="#about" className='navlink '>About</a>
           <a href="#experience" className='navlink '>Work</a>
