@@ -18,7 +18,7 @@ function Navbar() {
       <div className="hidden lg:flex text-white text-base font-medium flex-row items-center gap-7">
           <a href="#home" className='navlink '>Home</a>
           <a href="#about" className='navlink '>About</a>
-          <a href="#experience" className='navlink '>Experience</a>
+          <a href="#experience" className='navlink '>Work</a>
           <a className='navlink'>Projects</a>
           <a href="#contact" className='navlink'>Contact</a>
       </div>
