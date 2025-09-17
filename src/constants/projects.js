@@ -23,7 +23,7 @@ export const projectData = [
     {
         title: "Portfolio Website",
         tech: ["React", "Tailwind"],
-        description: "A modern portfolio website built with React and Tailwind CSS to showcase my software development projects. Provides interactive project previews, descriptions, and highlights my skills.",
+        description: "A modern portfolio website built with React and Tailwind CSS to showcase my software development projects.",
         image: "portfoliowebsite.png",
         github:"https://github.com/Jonathan-Roach/Portfolio-Website",
     },
