@@ -11,7 +11,7 @@ function Navbar() {
         {/* Logo*/}
         <a href="#home" className='group flex flex-row items-center gap-2'>
           <img src="icon.png" className='w-6 h-6 md:w-7 md:h-7'></img>
-        <h1 className=' text-white text-lg md:text-xl font-bold'>Jonathan Roach</h1>
+        <h1 className=' text-gray-200 text-lg md:text-xl font-bold'>Jonathan Roach</h1>
         </a>
 
       {/* Right side Nav*/}
@@ -19,7 +19,7 @@ function Navbar() {
           <a href="#home" className='navlink '>Home</a>
           <a href="#about" className='navlink '>About</a>
           <a href="#experience" className='navlink '>Work</a>
-          <a className='navlink'>Projects</a>
+          <a href="#projects" className='navlink'>Projects</a>
           <a href="#contact" className='navlink'>Contact</a>
       </div>
 

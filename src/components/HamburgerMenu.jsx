@@ -19,7 +19,7 @@ return (
                 {/* Logo*/}
                 <a onClick={toggleMenu} href="#home" className='group flex flex-row items-center gap-2'>
                   <img src="icon.png" className='w-6 h-6 md:w-7 md:h-7'></img>
-                <h1 className='text-white text-lg md:text-xl font-bold'>Jonathan Roach</h1>
+                <h1 className='text-gray-200 text-lg md:text-xl font-bold'>Jonathan Roach</h1>
                 </a>
 
                {/* Hamburger Menu */}
@@ -33,7 +33,7 @@ return (
                         <a className="border-t-2 py-3 border-[#292929]" onClick={toggleMenu} href="#home">Home</a>
                         <a className="border-t-2 py-3  border-[#292929]" onClick={toggleMenu} href="#about">About</a>
                         <a className="border-t-2 py-3  border-[#292929]" onClick={toggleMenu} href="#experience">Work</a>
-                        <a className="border-t-2 py-3  border-[#292929]" onClick={toggleMenu}>Projects</a>
+                        <a className="border-t-2 py-3  border-[#292929]" onClick={toggleMenu} href="#projects">Projects</a>
                         <a className="border-t-2 py-3  border-[#292929]" onClick={toggleMenu} href="#contact" >Contact Me</a>
                         
                     </div>
