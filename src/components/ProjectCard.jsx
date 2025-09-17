@@ -14,7 +14,7 @@ function ProjectCard(props) {
                     </a>
                 </div>
                 
-                <p class="my-3 text-gray-300 text-[0.9rem] md:text-base">{props.description}</p>
+                <p class="w-15/16 my-3 text-gray-300 text-[0.9rem] md:text-base">{props.description}</p>
                     <div className="flex flex-row items-center gap-3 mt-4 lg:mt-5">
                     {props.tech.map((item) => (
                         <ProjectTech name={item} />
