@@ -1,3 +1,3 @@
-export const Skills = ["HTML", "CSS", "Javascript", "Sass", "Node.js", "Express.js", "React", "Tailwind", "Bootstrap", "Python", "Java", "Git"]
+export const Skills = ["HTML", "CSS", "Javascript", "SCSS", "Node.js", "Express.js", "React", "Tailwind", "Bootstrap", "Python", "Java", "Git"]
    
     
