@@ -15,7 +15,7 @@ function About (){
            
            <div className="flex flex-col justify-center">
                 <StatusCard/>
-                <div className="flex flex-row gap-2 mb-4 lg:justify-start justify-center ">
+                <div className="hidden lg:flex flex-row gap-2 mb-4 lg:justify-start justify-center ">
                     <a href={personalData.linkedIn} target='_blank' className="bg-[#1e1e1e] border-2 border-[#292929]  rounded-xl transition-all ease-in-out duration-500 p-3  text-gray-300 group">
                     <BsLinkedin className="group-hover:scale-110 group-hover:text-[#d3aef6]" size={26} />
                     </a>
