@@ -10,7 +10,10 @@ function StatusCard() {
                     <li className="my-2">{experienceData[0].title} @ {experienceData[0].company}</li>
                     <li className="my-2">Seeking Winter 2026 and Fall 2026 Internships</li>
                 </ul>
-
+                <h1 className="text-white text-xs md:text-sm font-semibold mb-1">Next up</h1>
+                <ul className="list-disc ml-4 marker:text-[#d3aef6] text-gray-300 text-sm md:text-base font-semibold">
+                    <li className="my-2">Startup Eco Hacks</li>
+                </ul>
             </div>
     )
 }

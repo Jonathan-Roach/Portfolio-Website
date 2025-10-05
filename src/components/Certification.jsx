@@ -1,6 +1,6 @@
 function Certification(props) {
     return(
-    <div className="transition hover:translate-x-3 flex flex-row items-center my-2">
+    <div className="transition hover:translate-x-3 flex flex-row items-center my-1">
         <h1 className="text-2xl mr-4">{props.icon}</h1>
         <div>
             <p className="text-[#d3aef6] font-semibold text-xs">{props.company}</p>

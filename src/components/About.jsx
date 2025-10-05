@@ -9,7 +9,7 @@ function About (){
     return(
         <div id="about" className="flex flex-col items-center py-12 bg-transparent">
             <div className="md:w-8/12">
-                <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold my-8 text-gray-200">About Me</h1>
+                <h1 className="text-3xl md:text-4xl font-bold my-8 text-gray-200">About Me</h1>
             </div>
             <div className="w-10/12 md:w-8/12 grid lg:grid-cols-2 gap-x-12">
            

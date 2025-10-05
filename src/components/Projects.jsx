@@ -5,7 +5,7 @@ function Projects() {
     return (
         <div id="projects" className="flex flex-col items-center py-12 lg:py-32 bg-transparent">
                     <div className="md:w-8/12">
-                        <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold my-8 text-gray-200">Projects</h1>
+                        <h1 className="text-3xl md:text-4xl font-bold my-8 text-gray-200">Projects</h1>
                     </div>
                     <div className="grid grid-cols-1 lg:grid-cols-2 gap-14 w-10/12 md:w-8/12">
                     {projectData.map((item, index) => (
