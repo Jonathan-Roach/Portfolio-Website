@@ -11,6 +11,19 @@ select:-webkit-autofill {
   transition: background-color 9999s ease-in-out 0s;
 }
 
+html, body {
+  overflow: auto;               /* Keep scrolling functional */
+  -ms-overflow-style: none;     /* IE and Edge */
+  scrollbar-width: none;        /* Firefox */
+}
+
+/* Chrome, Safari, new Edge */
+html::-webkit-scrollbar,
+body::-webkit-scrollbar {
+  width: 0px;
+  height: 0px;
+}
+
 .navlink {
   transition: all 0.2s;
   position: relative;
