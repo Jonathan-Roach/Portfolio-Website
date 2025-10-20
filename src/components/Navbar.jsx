@@ -4,12 +4,12 @@ import HamburgerMenu from './HamburgerMenu'
 function Navbar() {
 
   return (
-    <nav className="fixed bg-gradient-to-b from-[#121212] via-[#121212] to-transparent w-full top-0 left-0 pt-4 pb-15 px-6 z-10">
+    <nav className="fixed bg-gradient-to-b from-[#121212] via-[#121212] to-transparent w-full top-0 left-0 pt-4 pb-15 z-10">
       <div className='flex justify-center w-full'>
-        <div className='w-11/12 lg:w-17/18 flex flex-row justify-between items-center'>
+        <div className='w-11/12 flex flex-row justify-between items-center'>
 
         {/* Logo*/}
-        <a href="#home" className='group flex flex-row items-center gap-3'>
+        <a href="#home" className='group flex flex-row items-center gap-2'>
           <img src="icon.png" className='w-6 h-6 md:w-7 md:h-7'></img>
         <h1 className=' text-gray-200 text-lg md:text-xl font-bold'>Jonathan Roach</h1>
         </a>
