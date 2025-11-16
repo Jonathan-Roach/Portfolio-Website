@@ -5,7 +5,7 @@ function ExperienceCard(props) {
                 <div className="flex justify-between">
                     <div className='w-full flex items-center'>
                         <div className='flex items-center px-2 md:px-6'>
-                            <img className='w-12 md:w-16 bg-white rounded-full ring-3 ring-offset-2 ring-white mr-3 block' src={props.logo} alt={`${props.company} logo`} />
+                            <img className='w-12 md:w-16 bg-white rounded-full  mr-3 block' src={props.logo} alt={`${props.company} logo`} />
                             <div className='text-left ml-2 w-full'>
                                 <h1 className='text-base leading-tight text-balance md:text-xl lg:text-xl font-semibold text-white'>{props.company}</h1>
                                 <h2 className='text-xs md:text-sm lg:text-base text-[#d3aef6] font-semibold'>{props.title}</h2>
