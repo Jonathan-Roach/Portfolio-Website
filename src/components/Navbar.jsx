@@ -4,7 +4,7 @@ import HamburgerMenu from './HamburgerMenu'
 function Navbar() {
 
   return (
-    <nav className="fixed bg-gradient-to-b from-[#121212] via-[#121212] to-transparent w-full top-0 left-0 pt-4 pb-15 z-10">
+    <nav className="fixed bg-gradient-to-b from-[#121212] via-[#121212] to-transparent w-full top-0 left-0 pt-4 pb-20 z-10">
       <div className='flex justify-center w-full'>
         <div className='w-11/12 flex flex-row justify-between lg:justify-center items-center'>
 
