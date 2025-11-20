@@ -9,7 +9,7 @@ export const experienceData = [
     },
     {
         company: "North Auto Tech",
-        title: "Software Developer",
+        title: "Web Developer",
         duration: "September 2025 - December 2025",
         description: "",
         location: "Richmond Hill, ON",
