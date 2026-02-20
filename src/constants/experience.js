@@ -2,9 +2,9 @@ export const experienceData = [
     {
         company: "OpenText",
         title: "Business Continuity Management Intern",
-        duration: "January 2025 - April 2025",
+        duration: "January 2025 - August 2025",
         description: "",
-        location: "Waterloo, ON",
+        location: "Waterloo, ON, Canada",
         logo: "opentext.jpg",
     },
     {
@@ -12,7 +12,7 @@ export const experienceData = [
         title: "Web Developer",
         duration: "September 2025 - December 2025",
         description: "",
-        location: "Richmond Hill, ON",
+        location: "Richmond Hill, ON, Canada",
         logo: "northautotech.jpg",
     },
     {
@@ -20,7 +20,7 @@ export const experienceData = [
         title: "Fixed Operations Intern",
         duration: "November 2024 - August 2025",
         description: "",
-        location: "Markham, ON",
+        location: "Markham, ON, Canada",
         logo: "volkswagen4.png",
     },
     {
@@ -28,7 +28,7 @@ export const experienceData = [
         title: "Office & Project Coordinator",
         duration: "January 2024 - May 2024",
         description: "",
-        location: "Toronto, ON",
+        location: "Toronto, ON, Canada",
         logo: "FilionWakely.png",
     },
 ]

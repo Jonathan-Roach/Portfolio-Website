@@ -34,7 +34,7 @@ return (
                         <a className="border-t-2 py-3  border-[#292929]" onClick={toggleMenu} href="#about">About</a>
                         <a className="border-t-2 py-3  border-[#292929]" onClick={toggleMenu} href="#experience">Work</a>
                         <a className="border-t-2 py-3  border-[#292929]" onClick={toggleMenu} href="#projects">Projects</a>
-                        <a className="border-t-2 py-3  border-[#292929]" onClick={toggleMenu} href="#contact" >Contact Me</a>
+                        <a className="border-t-2 py-3  border-[#292929]" onClick={toggleMenu} href="#contact" >Contact</a>
                         
                     </div>
                   </div>

@@ -4,7 +4,7 @@ import { BsGithub} from "react-icons/bs";
 function ProjectCard(props) {
    
     return (
-        <div class={`w-full rounded-3xl shadow-lg bg-[#1e1e1e] border-4 border-[#292929] transform ${props.offset}`}>
+        <div class={`hover:scale-101 w-full rounded-3xl shadow-lg bg-[#1e1e1e] border-4 border-[#292929] transform ${props.offset}`}>
             <img class="w-full rounded-t-3xl" src={props.image}/>
             <div class="px-6 py-4">
                 <div className="flex flex-row items-center justify-between">

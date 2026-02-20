@@ -1,7 +1,7 @@
 function ExperienceCard(props) {
 
     return (
-            <div className='flex flex-col bg-[#1e1e1e] border-2 border-[#292929] w-10/12 md:w-8/12 mx-auto h-auto rounded-xl mb-4 px-2 md:px-4 lg:px-8 py-6'>
+            <div className='hover:scale-101 flex flex-col bg-[#1e1e1e] border-2 border-[#292929] w-10/12 md:w-8/12 mx-auto h-auto rounded-xl mb-4 px-2 md:px-4 lg:px-8 py-6'>
                 <div className="flex justify-between">
                     <div className='w-full flex items-center'>
                         <div className='flex items-center px-2 md:px-6'>

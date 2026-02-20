@@ -4,7 +4,7 @@ export const Date = () => new Date().getFullYear();
 export const personalData = 
     {   
         school: "University of Waterloo",
-        major: "Honours Business Management & Communications",
+        major: "Honours Business Management & Communication Studies",
         minor: "Minor in Computing",
         email: 'j2roach@uwaterloo.ca',
         github: 'https://github.com/Jonathan-Roach',
