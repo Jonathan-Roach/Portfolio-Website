@@ -2,7 +2,7 @@ export const experienceData = [
     {
         company: "OpenText",
         title: "Business Continuity Management Intern",
-        duration: "January 2025 - August 2025",
+        duration: "January 2026 - August 2026",
         description: "",
         location: "Waterloo, ON, Canada",
         logo: "opentext.jpg",
