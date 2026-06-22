@@ -8,14 +8,6 @@ export const experienceData = [
         logo: "opentext.jpg",
     },
     {
-        company: "North Auto Tech",
-        title: "Web Developer",
-        duration: "September 2025 - December 2025",
-        description: "",
-        location: "Richmond Hill, ON, Canada",
-        logo: "northautotech.jpg",
-    },
-    {
         company: "Volkswagen Unionville",
         title: "Fixed Operations Intern",
         duration: "November 2024 - August 2025",
