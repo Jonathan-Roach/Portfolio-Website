@@ -18,7 +18,7 @@ export const experienceData = [
     {
         company: "Filion Wakely Thorup Angeletti LLP",
         title: "Office & Project Coordinator",
-        duration: "January 2024 - May 2024",
+        duration: "January 2024 - Apr 2024",
         description: "",
         location: "Toronto, ON, Canada",
         logo: "FilionWakely.png",
