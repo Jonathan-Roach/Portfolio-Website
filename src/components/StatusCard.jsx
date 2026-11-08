@@ -8,7 +8,7 @@ function StatusCard() {
                 <ul className="list-disc ml-6 marker:text-[#d3aef6] text-gray-300 text-sm md:text-base font-semibold mb-1">
                     <li className="mb-2">{personalData.major} Student with a {personalData.minor} @ {personalData.school}</li>
                     <li className="mb-2">{experienceData[0].title} @ {experienceData[0].company}</li>
-                    <li className="mb-2">Seeking Fall 2026 Internships</li>
+                    <li className="mb-2">Seeking New Graduate Opportunities</li>
                 </ul>
                 {/*}
                 <h1 className="text-white text-sm font-semibold mb-1">Next up</h1>

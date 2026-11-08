@@ -1,20 +1,20 @@
 export const projectData = [
     {
-        title: "JukeBox.ai - AI Music Generator",
+        title: "JukeBox.ai",
         tech: ["React", "Tailwind", "Node.js", "Express.js", "Gemini"],
         description: "An AI-powered music generator that turns text prompts into high-quality songs, narration, or audio clips. Built with Gemini, ElevenLabs, React, Tailwind, Node.js, and Express.js for a full-stack interactive experience",
         image: "jukeboxai.png",
         github: "https://github.com/Jonathan-Roach/jukeboxai",
     },
     {
-        title: "LinkUp - AI Networking Assistant",
+        title: "LinkUp",
         tech: ["React", "Tailwind", "Node.js", "Gemini"],
         description: "An AI-driven networking assistant that provides personalized advice on how to approach professional contacts, conversation topics, and follow-ups. Developed using React, Tailwind, Python, and Gemini",
         image: "LinkUp.png",
         github: "https://github.com/Jonathan-Roach/LinkedUp",
     },
     {
-        title: "FlashNotes - Customizable Flashcard Application",
+        title: "FlashNotes",
         tech: ["Python"],
         description: "A customizable flashcard app that allows users to import study material via CSV and interactively review cards. Created with Python, Tkinter, and Pandas for a lightweight and user-friendly learning experience",
         image: "flashnotes.png",
