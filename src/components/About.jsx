@@ -23,13 +23,13 @@ function About (){
                 <SkillsCard/>
                <div className="flex flex-row gap-2 mb-4 lg:justify-start justify-center ">
                     <a href={personalData.linkedIn} target='_blank' className="bg-[#1e1e1e] border-2 border-[#292929]  rounded-xl transition-all ease-in-out duration-500 p-3  text-gray-300 group">
-                    <BsLinkedin className="group-hover:scale-110 group-hover:text-[#d3aef6]" size={26} />
+                    <BsLinkedin className="group-hover:scale-110 group-hover:text-[#0A66C2]" size={26} />
                     </a>
                     <a href={personalData.github} target='_blank' className="bg-[#1e1e1e] border-2 border-[#292929]  rounded-xl transition-all ease-in-out duration-500 p-3  text-gray-300 group">
-                    <BsGithub className="group-hover:scale-110 group-hover:text-[#d3aef6]" size={26} />
+                    <BsGithub className="group-hover:scale-110 group-hover:text-[#e23d13]" size={26} />
                     </a>
                      <a href={`mailto:${personalData.email}`} target='_blank' className="bg-[#1e1e1e] border-2 border-[#292929] rounded-xl transition-all ease-in-out duration-500 p-3 text-gray-300 group">
-                       <FaEnvelope className="group-hover:scale-110 group-hover:text-[#d3aef6]" size={26} />
+                       <FaEnvelope className="group-hover:scale-110 group-hover:text-[#FFFF00]" size={26} />
                      </a>
                 </div>
             </div>

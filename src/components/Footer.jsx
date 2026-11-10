@@ -12,13 +12,13 @@ const Footer = () => {
                 <p className="text-base font-medium">{personalData.email}</p>
                 <div className="flex flex-row mb-4 justify-start gap-2">
                         <a href={personalData.linkedIn} target='_blank' className="rounded-xl transition-all ease-in-out duration-500 py-3 text-gray-300 group">
-                            <BsLinkedin className="group-hover:scale-110 group-hover:text-[#d3aef6]" size={20} />
+                            <BsLinkedin className="group-hover:scale-110 group-hover:text-[#0A66C2]" size={20} />
                             </a>
                         <a href={personalData.github} target='_blank' className="rounded-xl transition-all ease-in-out duration-500 py-3  text-gray-300 group">
-                         <BsGithub className="group-hover:scale-110 group-hover:text-[#d3aef6]" size={20} />
+                         <BsGithub className="group-hover:scale-110 group-hover:text-[#e23d13]" size={20} />
                          </a>
                           <a href={`mailto:${personalData.email}`} target='_blank' className="rounded-xl transition-all ease-in-out duration-500 py-3 text-gray-300 group">
-                                 <FaEnvelope className="group-hover:scale-110 group-hover:text-[#d3aef6]" size={20} />
+                                 <FaEnvelope className="group-hover:scale-110 group-hover:text-[#FFFF00]" size={20} />
                              </a>
                       </div>
             </div>
