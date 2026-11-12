@@ -5,7 +5,7 @@ export const personalData =
     {   
         school: "University of Waterloo",
         major: "Honours Business Management & Communication Studies",
-        minor: "Minor in Computing",
+        minor: "minor in Computing",
         email: 'j2roach@uwaterloo.ca',
         github: 'https://github.com/Jonathan-Roach',
         linkedIn: 'https://www.linkedin.com/in/jonathanroach1/',

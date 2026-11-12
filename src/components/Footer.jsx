@@ -18,7 +18,7 @@ const Footer = () => {
                          <BsGithub className="group-hover:scale-110 group-hover:text-[#e23d13]" size={20} />
                          </a>
                           <a href={`mailto:${personalData.email}`} target='_blank' className="rounded-xl transition-all ease-in-out duration-500 py-3 text-gray-300 group">
-                                 <FaEnvelope className="group-hover:scale-110 group-hover:text-[#FFFF00]" size={20} />
+                                 <FaEnvelope className="group-hover:scale-110 group-hover:text-[#EAAB00]" size={20} />
                              </a>
                       </div>
             </div>
