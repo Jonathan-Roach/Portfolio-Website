@@ -20,8 +20,7 @@ return (
           <div className='flex justify-center w-full'>
                  <div className='w-11/12 flex flex-row justify-between'>
                 {/* Logo*/}
-                <a onClick={toggleMenu} href="#home" className='group flex flex-row items-center gap-2'>
-                  <img src="icon.png" className='w-6 h-6 md:w-7 md:h-7'></img>
+                <a onClick={toggleMenu} href="#home" className='group flex flex-row items-center gap-2 ml-3 md:ml-6'>
                 <h1 className='text-gray-200 text-lg md:text-xl font-bold'>Jonathan Roach</h1>
                 </a>
 
