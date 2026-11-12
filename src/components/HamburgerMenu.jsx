@@ -1,6 +1,9 @@
 import { useState, React } from "react"
 import Hamburger from "hamburger-react"
 import Navbar from "./Navbar"
+import { personalData } from "../constants/links"
+import { BsGithub, BsLinkedin } from "react-icons/bs";
+import { FaEnvelope } from "react-icons/fa";
 
 export default function HamburgerMenu() {
 const [open, setOpen] = useState(false)
@@ -35,8 +38,20 @@ return (
                         <a className="border-t-2 py-3  border-[#292929]" onClick={toggleMenu} href="#experience">Experience</a>
                         <a className="border-t-2 py-3  border-[#292929]" onClick={toggleMenu} href="#projects">Projects</a>
                         <a className="border-t-2 py-3  border-[#292929]" onClick={toggleMenu} href="#contact" >Contact</a>
-                        
+                        <div className="flex flex-row border-t-2 border-[#292929] py-4 gap-4">
+                                      <a href={personalData.linkedIn} target='_blank' className="rounded-xl transition-all ease-in-out duration-500 text-gray-300 group">
+                                        <BsLinkedin className="group-hover:scale-110 group-hover:text-[#0A66C2]" size={20} />
+                                      </a>
+                                      <a href={personalData.github} target='_blank' className="rounded-xl transition-all ease-in-out duration-500 text-gray-300 group">
+                                          <BsGithub className="group-hover:scale-110 group-hover:text-[#e23d13]" size={20} />
+                                    </a>
+                                      <a href={`mailto:${personalData.email}`} target='_blank' className="rounded-xl transition-all ease-in-out duration-500 text-gray-300 group">
+                                        <FaEnvelope className="group-hover:scale-110 group-hover:text-[#FFFF00]" size={20} />
+                                      </a>
+                          </div>                       
                     </div>
+
+
                   </div>
                 
         </div>}
