@@ -38,7 +38,7 @@ return (
                         <a className="border-t-2 py-3  border-[#292929]" onClick={toggleMenu} href="#experience">Experience</a>
                         <a className="border-t-2 py-3  border-[#292929]" onClick={toggleMenu} href="#projects">Projects</a>
                         <a className="border-t-2 py-3  border-[#292929]" onClick={toggleMenu} href="#contact" >Contact</a>
-                        <div className="flex flex-row border-t-2 border-[#292929] py-4 gap-4">
+                        <div className="flex flex-row border-t-2 border-[#292929] ml-1 pt-5 gap-4">
                                       <a href={personalData.linkedIn} target='_blank' className="rounded-xl transition-all ease-in-out duration-500 text-gray-300 group">
                                         <BsLinkedin className="group-hover:scale-110 group-hover:text-[#0A66C2]" size={20} />
                                       </a>
