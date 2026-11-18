@@ -23,6 +23,7 @@ function Navbar() {
             <a href="#home" className='navlink '>Home</a>
             <a href="#about" className='navlink '>About</a>
             <a href="#experience" className='navlink '>Experience</a>
+            <a href="#education" className='navlink '>Education</a>
             <a href="#projects" className='navlink'>Projects</a>
             <a href="#contact" className='navlink'>Contact</a>
         </div>

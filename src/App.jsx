@@ -1,4 +1,5 @@
 import Experiences from "./components/Experiences"
+import Education from "./components/Education"
 import Hero from "./components/Hero"
 import About from "./components/About"
 import Contact from "./components/Contact"
@@ -12,6 +13,7 @@ function App() {
       <div className="bg-[#121212]">
       <About />
       <Experiences/>
+      <Education/>
       <Projects />
       <Contact />
       <Footer />
