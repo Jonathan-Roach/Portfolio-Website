@@ -1,34 +1,60 @@
 
-import { useState, useEffect } from "react";
+import { useState, useEffect, useRef } from "react";
 import Hamburger from "hamburger-react";
-import Navbar from "./Navbar";
 import { personalData } from "../constants/links";
 import { BsGithub, BsLinkedin } from "react-icons/bs";
 import { FaEnvelope } from "react-icons/fa";
 
 export default function HamburgerMenu() {
     const [open, setOpen] = useState(false);
+    const scrollPosition = useRef(0);
 
     const toggleMenu = () => {
         setOpen(!open);
     };
 
-    // Prevent background scrolling when menu is open
+    // Lock background scrolling (including iOS Safari)
     useEffect(() => {
-        document.body.style.overflow = open ? "hidden" : "";
+        if (open) {
+            scrollPosition.current = window.scrollY;
+
+            document.body.style.position = "fixed";
+            document.body.style.top = `-${scrollPosition.current}px`;
+            document.body.style.width = "100%";
+            document.body.style.overflow = "hidden";
+
+            document.documentElement.style.overflow = "hidden";
+        }
 
         return () => {
-            document.body.style.overflow = "";
+            if (open) {
+                document.body.style.position = "";
+                document.body.style.top = "";
+                document.body.style.width = "";
+                document.body.style.overflow = "";
+
+                document.documentElement.style.overflow = "";
+
+                window.scrollTo(0, scrollPosition.current);
+            }
         };
     }, [open]);
 
     return (
         <div className="lg:hidden text-white">
+
             <Hamburger size={18} toggled={open} toggle={setOpen} />
 
             {open && (
-                <div className="fixed inset-0 w-full h-screen overflow-y-auto overscroll-contain bg-[#121212]/75 backdrop-blur-sm pt-4">
+                <div
+                    className="fixed inset-0 z-[9999] w-full h-[100dvh] overflow-y-auto overscroll-contain bg-[#121212]/75 backdrop-blur-sm pt-4"
+                    style={{
+                        WebkitOverflowScrolling: "touch",
+                        touchAction: "pan-y"
+                    }}
+                >
 
+                    {/* Header */}
                     <div className="flex justify-center w-full">
                         <div className="w-11/12 flex flex-row justify-between">
 
@@ -43,7 +69,7 @@ export default function HamburgerMenu() {
                                 </h1>
                             </a>
 
-                            {/* Hamburger Menu */}
+                            {/* Close Hamburger */}
                             <Hamburger
                                 size={18}
                                 toggled={open}
@@ -82,7 +108,7 @@ export default function HamburgerMenu() {
                             </a>
 
                             {/* Social Links */}
-                            <div className="flex flex-row border-t-2 border-[#292929] ml-1 pt-5 pb-10  gap-4">
+                            <div className="flex flex-row border-t-2 border-[#292929] ml-1 pt-5 pb-10 gap-4">
 
                                 <a
                                     href={personalData.linkedIn}
