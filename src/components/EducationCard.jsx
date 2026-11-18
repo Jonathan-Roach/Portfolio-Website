@@ -17,8 +17,8 @@ function EducationCard(props) {
                     </div>
 
                     <div className="hidden lg:flex text-right text-nowrap  flex-col justify-center">
-                        <h1 className='text-xs xl:text-sm leading-3 ease-in-out duration-1000 font-semibold text-gray-300'>{props.duration}</h1>
-                        <h2 className='text-xs xl:text-sm mt-1 text-gray-300 ease-in-out duration-1000 font-semibold'>{props.location}</h2>
+                        <h1 className='text-xs xl:text-sm leading-3 ease-in-out duration-1000 font-semibold text-gray-300'>{props.location}</h1>
+                        <h2 className='text-xs xl:text-sm mt-1 text-gray-300 ease-in-out duration-1000 font-semibold'>{props.duration}</h2>
                     </div>
                 </div>
             </div>
