@@ -82,7 +82,7 @@ export default function HamburgerMenu() {
                             </a>
 
                             {/* Social Links */}
-                            <div className="flex flex-row border-t-2 border-[#292929] ml-1 pt-5 gap-4">
+                            <div className="flex flex-row border-t-2 border-[#292929] ml-1 pt-5 pb-10  gap-4">
 
                                 <a
                                     href={personalData.linkedIn}
