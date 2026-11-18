@@ -16,7 +16,7 @@ return (
     <div className="lg:hidden text-white">
         <Hamburger className="" size={18} toggled={open} toggle={setOpen}/>
 
-        {open && <div className="fixed left-0 top-0 w-full h-full bg-[#121212]/75 backdrop-blur-sm pt-4 ">
+        {open && <div className="fixed inset-0 w-full h-screen overflow-y-auto overscroll-contain bg-[#121212]/75 backdrop-blur-sm pt-4">
           <div className='flex justify-center w-full'>
                  <div className='w-11/12 flex flex-row justify-between'>
                 {/* Logo*/}
